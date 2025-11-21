@@ -1,7 +1,7 @@
 <template>
   <div class="sign-in-card">
     <div class="header">
-      <AppLogo size="48" />
+      <AppLogo size="48" class="logo" />
       <AppText tag="h1" variant="title" class="title">Tekrar hoş geldin</AppText>
     </div>
 
@@ -39,10 +39,11 @@ import SocialLoginGroup from '../molecules/SocialLoginGroup.vue'
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 734px;
+  max-width: 450px;
   padding: 32px;
   margin: 0 auto;
-  background-color: #121212; /* Ensure background matches page if needed, or transparent */
+  background-color: #121212;
+  border: none;
 }
 
 .header {
@@ -52,6 +53,10 @@ import SocialLoginGroup from '../molecules/SocialLoginGroup.vue'
   gap: 12px;
   margin-bottom: 40px;
   text-align: center;
+}
+
+.logo {
+  color: white;
 }
 
 .title {
