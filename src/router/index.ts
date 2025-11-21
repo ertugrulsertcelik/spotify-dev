@@ -32,6 +32,11 @@ const router = createRouter({
       name: 'category',
       component: () => import('../views/CategoryView.vue'),
     },
+    {
+      path: '/footer',
+      name: 'footer',
+      component: () => import('../views/FooterView.vue'),
+    },
   ],
 })
 
