@@ -27,6 +27,11 @@ const router = createRouter({
       name: 'slider',
       component: () => import('../views/SliderView.vue'),
     },
+    {
+      path: '/category',
+      name: 'category',
+      component: () => import('../views/CategoryView.vue'),
+    },
   ],
 })
 
