@@ -22,6 +22,11 @@ const router = createRouter({
       name: 'header',
       component: () => import('../views/HeaderView.vue'),
     },
+    {
+      path: '/slider',
+      name: 'slider',
+      component: () => import('../views/SliderView.vue'),
+    },
   ],
 })
 
