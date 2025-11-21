@@ -37,7 +37,12 @@ const router = createRouter({
       name: 'footer',
       component: () => import('../views/FooterView.vue'),
     },
+    {
+      path: '/library',
+      name: 'library',
+      component: () => import('../views/LibraryView.vue'),
+    },
   ],
 })
-
+  
 export default router
