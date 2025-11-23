@@ -52,6 +52,11 @@ const router = createRouter({
       name: 'sidebar',
       component: () => import('../views/SidebarView.vue'),
     },
+    {
+      path: '/player',
+      name: 'player',
+      component: () => import('../views/PlayerView.vue'),
+    },
   ],
 })
   
