@@ -4,7 +4,7 @@ import SidebarRelatedVideos from '../components/organisms/SidebarRelatedVideos.v
 import SidebarArtistInfo from '../components/organisms/SidebarArtistInfo.vue'
 
 const currentSong = {
-  title: 'Merhametine Dön (2021 Tek Edit)',
+  title: 'Ateşten Gömlek',
   artist: 'Sagopa Kajmer',
   image: 'https://placehold.co/300x300/8b0000/ffffff?text=TEK', // Placeholder matching the red cover
   isLiked: true,
@@ -52,6 +52,12 @@ const aboutArtist = {
   height: 100vh;
   overflow-y: auto;
   font-family: 'Circular', sans-serif;
+  width: 20%;
+  min-width: 250px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #282828;
 }
 
 .section-header h2 {
